@@ -1,0 +1,46 @@
+body {
+    width: 65%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+nav {
+    padding: 10px;
+    border-radius: 2px;
+}
+.bg-gray {
+    background-color: #dedede;
+}
+nav img {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#egitim-table th,
+#egitim-table td {
+    padding: 15px;
+}
+#seminer-table th,
+#seminer-table td {
+    padding: 15px;
+}
+
+#yetenek-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#yetenek-table th,
+#yetenek-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+#yetenek-table tr:nth-child(even) {
+    background-color: #dddddd;
+}
